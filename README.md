@@ -16,7 +16,7 @@ sudo apt install git
 ```
 2. Clone Repo
 ```
-gitclone https://github.com/Socky01/Script_Nwchem_7.0.2.git
+git clone https://github.com/Socky01/Script_Nwchem_7.0.2.git
 ```
 3. Make script.sh executeable
 ```
