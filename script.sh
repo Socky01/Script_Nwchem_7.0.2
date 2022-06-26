@@ -12,7 +12,6 @@ sudo apt install -y curl python3-dev gfortran  mpi-default-bin mpi-default-dev s
 
 # Install Nwchem 7.0.2
 # -------------------------------------------------
-# Membuat dan Menuju Direktori Baru untuk menyimmpan downloadan Nwchem
 # Make and Go to new Directory for saving .DEB file
 mkdir Download_Nwchem
 cd $
