@@ -15,7 +15,7 @@ sudo apt install git
 ```
 2. Clone Repo
 ```
-git clone https://github.com/Socky01/Script_Nwchem_7.0.2.git
+git clone https://github.com/Socky01/script_Nwchem_7.0.2.git
 ```
 3. Move to directory Script_Nwchem_7.0.2
 ```
