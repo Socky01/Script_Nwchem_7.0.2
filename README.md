@@ -18,11 +18,15 @@ sudo apt install git
 ```
 git clone https://github.com/Socky01/Script_Nwchem_7.0.2.git
 ```
-3. Make script.sh executeable
+3. Move to directory Script_Nwchem_7.0.2
+```
+cd Script_Nwchem_7.0.2
+```
+4. Make script.sh executeable
 ```
 chmod +x script.sh
 ```
-4. Run script.sh
+5. Run script.sh
 ```
 ./script.sh
 ```
