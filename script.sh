@@ -27,4 +27,3 @@ mkdir test_h2o
 mv h2o.nw test_h2o/
 cd test_h2o/
 nwchem h2o.nw >& h2o.out &
-ps
