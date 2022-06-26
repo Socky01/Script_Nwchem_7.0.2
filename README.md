@@ -19,7 +19,7 @@ git clone https://github.com/Socky01/Script_Nwchem_7.0.2.git
 ```
 3. Move to directory Script_Nwchem_7.0.2
 ```
-cd Script_Nwchem_7.0.2
+cd script_Nwchem_7.0.2
 ```
 4. Make script.sh executeable
 ```
