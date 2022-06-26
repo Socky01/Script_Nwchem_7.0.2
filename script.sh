@@ -8,7 +8,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # Install Required Packages
-sudo apt install -y curl wget git htop mlocate python3-dev gfortran  mpi-default-bin mpi-default-dev ssh
+sudo apt install -y curl python3-dev gfortran  mpi-default-bin mpi-default-dev ssh
 
 # Install Nwchem 7.0.2
 # -------------------------------------------------
