@@ -19,11 +19,3 @@ cd $
 curl -LJO https://github.com/nwchemgit/nwchem/releases/download/v7.0.2-release/nwchem-data_7.0.2-1_all.ubuntu_focal.deb
 curl -LJO https://github.com/nwchemgit/nwchem/releases/download/v7.0.2-release/nwchem_7.0.2-1_amd64.ubuntu_focal.deb
 sudo dpkg -i nwchem*7.0.2*focal*.deb
-
-# Opsional - ON PROGRESS
-# Melakukan Test Perhitungan H2O menggunakan SCF
-# -------------------------------------------------
-mkdir test_h2o
-mv h2o.nw test_h2o/
-cd test_h2o/
-nwchem h2o.nw >& h2o.out &
