@@ -2,7 +2,7 @@
 
 Steps That will be done in this script including:
 - Update dan Upgrade Packages
-- Install Eeesential Packages to run the script: curl, python3-dev, gfortran, mpi-default-bin, mpi-default-dev ssh.
+- Install Eessential Packages to run the script: curl, python3-dev, gfortran, mpi-default-bin, mpi-default-dev ssh.
 - Make a download folder for the .DEB file
 - Install Nwchem 7.0.2
 
