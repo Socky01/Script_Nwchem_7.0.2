@@ -111,7 +111,19 @@ nwchem h2o.nw >& h2o.out &
 ```
 ### NOTES
 -------------------
-Running nwchem using command, will only utilize 1 core of the CPU :
+1. To check if the calculation is still running, use command:
+```
+ps
+```
+if the calculation is finished, the indicator:
+```
+[1]+  Done nwchem h2o.nw &> h2o.out
+```
+2. To open the input file we can use command:
+```
+nano h2o.out
+```
+3. Running nwchem using command, will only utilize 1 core of the CPU :
 ```
 nwchem h2o.nw >& h2o.out &
 ```
