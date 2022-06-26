@@ -5,7 +5,7 @@
 # By Freskha Fauzi
 
 # Update dan Upgrade Packages yang sudah terinstall
-sudo apt update && sudo apt upgrade -yang
+sudo apt update && sudo apt upgrade -y
 
 # Install Packages yang perlu digunakan
 sudo apt install -y curl wget git htop mlocate python3-dev gfortran  mpi-default-bin mpi-default-dev ssh
@@ -22,6 +22,8 @@ sudo dpkg -i nwchem*7.0.2*focal*.deb
 
 # Opsional - ON PROGRESS
 # Melakukan Test Perhitungan H2O menggunakan SCF
-# gitclone h2o...
-# cd h2o
-# nwchem h2o.nw >& h2o.out &
+# -------------------------------------------------
+mkdir test_h2o
+mv h2o.nw h2o/
+cd $
+nwchem h2o.nw >& h2o.out &
