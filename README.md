@@ -5,11 +5,10 @@ Steps That will be done in this script including:
 - Install Eesstial Packages to run the script: curl, python3-dev, gfortran, mpi-default-bin, mpi-default-dev ssh.
 - Make a download folder for the .DEB file
 - Install Nwchem 7.0.2
-- __OPTIONAL TEST H2O USING SCF__ --> __ON PROGRESS__
 
 How to run script
 -----------------
-## Method #1 - Automatic Install + OPTIONAL Run H2O Single point SCF energy
+## Method #1 - Automatic Install Nwchem 7.0.2 Ubuntu 20.04
 1. Install Git
 ```
 sudo apt install git
