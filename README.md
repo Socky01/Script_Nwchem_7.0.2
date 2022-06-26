@@ -133,6 +133,7 @@ nano h2o.out
 nwchem h2o.nw >& h2o.out &
 ``
 will only utilize 1 core of the CPU.
+
 For more advanced command we can use:
 ```
 setsid mpirun -np x nwchem h2o.nw >& h2o.out &
