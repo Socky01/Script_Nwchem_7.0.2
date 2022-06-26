@@ -6,7 +6,6 @@ Steps That will be done in this script including:
 - Make a download folder for the .DEB file
 - Install Nwchem 7.0.2
 
-How to run script
 -----------------
 ## Installing Nwchem 7.0.2
 ### Method #1 - Using Git Clone
@@ -109,4 +108,21 @@ ctrl + x
 6. Run the nwchem by using command:
 ```
 nwchem h2o.nw >& h2o.out &
+```
+### NOTES
+-------------------
+Running nwchem using command:
+```
+nwchem h2o.nw >& h2o.out &
+```
+Will only utilize 1 core of the CPU
+
+for more advanced command we can use:
+```
+setsid mpirun -np x nwchem h2o.nw >& h2o.out &
+```
+where x = number of processor that will be used during calculation.
+To check number of processor available we can use command:
+```
+lscpu
 ```
