@@ -8,7 +8,8 @@ Steps That will be done in this script including:
 
 How to run script
 -----------------
-## Method #1 - Automatic Install Nwchem 7.0.2 Ubuntu 20.04
+## Installing Nwchem 7.0.2
+### Method #1 - Using Git Clone
 1. Install Git
 ```
 sudo apt install git
@@ -66,4 +67,46 @@ chmod +x script.sh
 4. Run script.sh
 ```
 ./script.sh
+```
+
+## Testing Calculating H2O SCF calculation and geometry optimization in a 6-31g basis
+-------------------
+### STEPS
+1. Make test_h2o directory
+```
+mkdir test_h2o
+```
+2. Go to test_h2o directory
+```
+cd test_h2o
+```
+3. Make h2o.nw file
+```
+nano h2o.nw
+```
+4. Copy and Paste to the input file:
+```
+ start h2o 
+ title "Water in 6-31g basis set" 
+
+ geometry units au  
+   O      0.00000000    0.00000000    0.00000000  
+   H      0.00000000    1.43042809   -1.10715266  
+   H      0.00000000   -1.43042809   -1.10715266 
+ end  
+ basis  
+   H library 6-31g  
+   O library 6-31g  
+ end
+ task scf
+```
+5. Save and Quit from Editing Input file
+```
+ctrl + o
+enter
+ctrl + x
+```
+6. Run the nwchem by using command:
+```
+nwchem h2o.nw >& h2o.out &
 ```
