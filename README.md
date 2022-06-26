@@ -62,7 +62,11 @@ sudo dpkg -i nwchem*7.0.2*focal*.deb
 # nwchem h2o.nw >& h2o.out &
 
 ```
-3. Run script.sh
+3. Make script.sh Executeable
+```
+chmod +x script.sh
+```
+4. Run script.sh
 ```
 /.script.sh
 ```
