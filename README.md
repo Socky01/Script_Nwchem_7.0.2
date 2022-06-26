@@ -1,7 +1,7 @@
-# SCRIPT INSTALL NWCHEM 7.0.2 FOR UBUNTU 20.04 LTS
+# INSTALL NWCHEM 7.0.2 FOR UBUNTU 20.04 LTS USING SCRIPT
 
-Steps That will be done in this script including:
-- Update dan Upgrade Packages
+Steps that will be done in this script including:
+- Update and Upgrade Packages
 - Install Requried Packages to run the script: curl, python3-dev, gfortran, mpi-default-bin, mpi-default-dev ssh.
 - Make a download folder for the .DEB file
 - Install Nwchem 7.0.2
@@ -34,7 +34,7 @@ chmod +x script.sh
 ```
 nano script.sh
 ```
-2. Copy and Paste this command script.sh
+2. Copy and Paste this command to script.sh
 ```
 #!/bin/sh
 
