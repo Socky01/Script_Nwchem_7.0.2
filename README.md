@@ -128,10 +128,11 @@ if the calculation is finished, the indicator:
 ```
 nano h2o.out
 ```
-3. Running nwchem using command, will only utilize 1 core of the CPU :
-```
+3. Running nwchem using command: 
+``
 nwchem h2o.nw >& h2o.out &
-```
+``
+will only utilize 1 core of the CPU.
 For more advanced command we can use:
 ```
 setsid mpirun -np x nwchem h2o.nw >& h2o.out &
