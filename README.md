@@ -5,7 +5,7 @@ Steps That will be done in this script including:
 - Install Eesstial Packages to run the script: curl, python3-dev, gfortran, mpi-default-bin, mpi-default-dev ssh.
 - Make a download folder for the .DEB file
 - Install Nwchem 7.0.2
-- __OPTIONAL TEST H2O USING SCF__
+- __OPTIONAL TEST H2O USING SCF__ --> __ON PROGRESS__
 
 How to run script
 -----------------
