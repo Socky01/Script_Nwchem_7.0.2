@@ -22,7 +22,7 @@ git clone https://github.com/Socky01/Script_Nwchem_7.0.2.git
 ```
 chmod +x script.sh
 ```
-5. Run script.sh
+4. Run script.sh
 ```
 /.script.sh
 ```
