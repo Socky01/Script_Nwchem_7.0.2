@@ -34,7 +34,7 @@ chmod +x script.sh
 ```
 nano script.sh
 ```
-2. Copy and Paste this command script.sh then save
+2. Copy and Paste this command script.sh
 ```
 #!/bin/sh
 
@@ -59,11 +59,17 @@ curl -LJO https://github.com/nwchemgit/nwchem/releases/download/v7.0.2-release/n
 curl -LJO https://github.com/nwchemgit/nwchem/releases/download/v7.0.2-release/nwchem_7.0.2-1_amd64.ubuntu_focal.deb
 sudo dpkg -i nwchem*7.0.2*focal*.deb
 ```
-3. Make script.sh Executeable
+3. Save and Exit
+```
+ctrl + o
+enter
+ctrl + x
+```
+4. Make script.sh Executeable
 ```
 chmod +x script.sh
 ```
-4. Run script.sh
+5. Run script.sh
 ```
 ./script.sh
 ```
