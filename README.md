@@ -115,8 +115,7 @@ Running nwchem using command:
 ```
 nwchem h2o.nw >& h2o.out &
 ```
-Will only utilize 1 core of the CPU
-
+Will only utilize 1 core of the CPU.
 for more advanced command we can use:
 ```
 setsid mpirun -np x nwchem h2o.nw >& h2o.out &
