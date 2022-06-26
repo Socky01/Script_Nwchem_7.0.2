@@ -24,7 +24,7 @@ chmod +x script.sh
 ```
 4. Run script.sh
 ```
-/.script.sh
+./script.sh
 ```
 ## Method #2
 1. Make script.sh
@@ -68,5 +68,5 @@ chmod +x script.sh
 ```
 4. Run script.sh
 ```
-/.script.sh
+./script.sh
 ```
